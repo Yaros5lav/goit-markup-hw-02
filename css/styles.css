@@ -1,0 +1,23 @@
+/* main color black #212121; */
+/* secondary blacki-greyish  #757575; */
+/* backgroud white #FFFFFF */
+/* background black (sec 2 , footer) #2F303A */
+/* background pinkish + selector-buttons bg #F5F4FA */
+/* hover + logo : #2196F3; */
+/* footer address rgba(255, 255, 255, 0.6) */
+
+
+:root {
+	--primary-text: #212121;
+	--secondary-text: #757575;
+	--background-main: #FFFFFF;
+	--background-secondary: #2F303A;
+	--background-three: #F5F4FA;
+	--company-color: #2196F3;
+	--footer-address: rgba(255, 255, 255, 0.6);
+}
+
+body {
+background-color: var(--background-main);
+color: var(--primary-color);
+}
