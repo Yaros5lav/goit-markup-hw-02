@@ -18,6 +18,42 @@
 }
 
 body {
-background-color: var(--background-main);
-color: var(--primary-text);
+	font-family: 'Roboto', 'Times New Roman' , sans-serif;
+	font-weight: 400;
+	background-color: var(--background-main);
+	color: var(--primary-text);
 }
+
+/* remove dots only from existing lists */
+.list {
+	list-style: none;
+}
+/* remove underline from all links */
+a {
+	text-decoration: none;
+}
+/* logo */
+.logo {
+	font-family: 'Raleway', sans-serif;
+	color: inherit;
+}
+.logo-web {
+	color: var(--company-color);
+}
+.footer {
+	color: var(--background-main);
+}
+/* header */
+.links .link {
+	color: var(--primary-text);
+	font-weight: 500;
+}
+.address-one .link {
+	color: var(--secondary-text);
+}
+
+.link:hover , .link:focus{
+	color: var(--company-color);
+}
+
+
