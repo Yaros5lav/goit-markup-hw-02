@@ -75,13 +75,13 @@ footer .list {
 	font-style: normal;
 	
 }
-.footer .link {
+footer .link {
 	color: var(--footer-address);
 }
 .link.print-address {
 	color: var(--background-main);
 }
-.footer {
+footer {
 	background-color: var(--background-secondary);
 }
 
@@ -113,12 +113,12 @@ footer .list {
 .hidden {
 	visibility: hidden;
 }
-.caption {
+.reasons-caption {
 	font-size: 14px;
 	line-height: 1.17;
 	text-transform: uppercase;
 }
-.reasons .item {
+.reasons-item {
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--secondary-text);
@@ -140,14 +140,14 @@ footer .list {
 }
 .team .list {
 	font-size: 16px;
-	line-height: 1.19;
+	line-height: 1.17;
 }
-.name {
+.team-caption {
 	font-weight: 500;
 	font-size: inherit;
 }
 
-.profession {
+.team-item {
 	color: var(--secondary-text);
 }
 
@@ -167,13 +167,13 @@ footer .list {
 .filter:focus {
 	background-color: var(--company-color);
 }
-.project {
+.portfolio-caption {
 	color: var(--primary-text);
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
-.type {
+.portfolio-item {
 	color: var(--secondary-text);
 	font-size: 16px;
 	line-height: 1.875;
