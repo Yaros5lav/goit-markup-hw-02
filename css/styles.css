@@ -19,9 +19,9 @@
 
 body {
 	font-family: 'Roboto', 'Times New Roman' , sans-serif;
-	font-weight: 400;
 	background-color: var(--background-main);
 	color: var(--primary-text);
+	letter-spacing: 0.03em;
 }
 
 /* remove dots only from existing lists */
@@ -34,8 +34,8 @@ a {
 }
 
 /* links to change color when hover and focus*/
-.body .link:hover,
-.body .link:focus {
+.all .link:hover,
+.all .link:focus {
 	color: var(--company-color);
 }
 /* logo */
@@ -51,11 +51,11 @@ a {
 .logo-web {
 	color: var(--company-color);
 }
-.footer > .logo {
+footer > .logo {
 	color: var(--background-main);
 }
 /* header (can use tag for header , but better with class) */
-.header .link {
+header .link {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
@@ -69,8 +69,7 @@ a {
 }
 
 /* footer */
-.footer .list {
-	font-weight: 400;
+footer .list {
 	font-size: 14px;
 	line-height: 1.71;
 	font-style: normal;
@@ -86,6 +85,98 @@ a {
 	background-color: var(--background-secondary);
 }
 
+/* index html main */
+/* section 1=hero */
+.hero {
+	background-color: var(--background-secondary);
+}
+.headline {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--background-main);
+}
+.button-one {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	background-color: var(--company-color);
+	color: var(--background-main);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.875;
+}
 
+/* section 2 =reasons */
+.hidden {
+	visibility: hidden;
+}
+.caption {
+	font-size: 14px;
+	line-height: 1.17;
+	text-transform: uppercase;
+}
+.reasons .item {
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--secondary-text);
+}
+
+/* section 3 =processes*/
+
+.outline {
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+/* section 4=team */
+
+/* outline- sec 3 css */
+.team {
+	background-color: var(--background-three);
+}
+.team .list {
+	font-size: 16px;
+	line-height: 1.19;
+}
+.name {
+	font-weight: 500;
+	font-size: inherit;
+}
+
+.profession {
+	color: var(--secondary-text);
+}
+
+
+/* portfolio-html */
+
+.filter ,
+.button-one {
+	cursor: pointer;
+}
+.filter {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+}
+.filter:hover,
+.filter:focus {
+	background-color: var(--company-color);
+}
+.project {
+	color: var(--primary-text);
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.type {
+	color: var(--secondary-text);
+	font-size: 16px;
+	line-height: 1.875;
+}
 
 
