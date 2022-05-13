@@ -32,28 +32,60 @@ body {
 a {
 	text-decoration: none;
 }
+
+/* links to change color when hover and focus*/
+.body .link:hover,
+.body .link:focus {
+	color: var(--company-color);
+}
 /* logo */
 .logo {
 	font-family: 'Raleway', sans-serif;
 	color: inherit;
+	font-weight: 700;
+	/* line-height is 31px in figma, when i get 30.94px, should i round it up to 1.2 or include more numbers after dort? */
+	line-height: 1.19;
+	font-size: 26px;
+	letter-spacing: 0.03em;
 }
 .logo-web {
 	color: var(--company-color);
 }
-.footer {
+.footer > .logo {
 	color: var(--background-main);
 }
-/* header */
-.links .link {
-	color: var(--primary-text);
+/* header (can use tag for header , but better with class) */
+.header .link {
 	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	font-size: 14px;
 }
-.address-one .link {
+.navigation .link {
+	color: var(--primary-text);
+}
+.address-top .link {
 	color: var(--secondary-text);
 }
 
-.link:hover , .link:focus{
-	color: var(--company-color);
+/* footer */
+.footer .list {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	font-style: normal;
+	
 }
+.footer .link {
+	color: var(--footer-address);
+}
+.link.print-address {
+	color: var(--background-main);
+}
+.footer {
+	background-color: var(--background-secondary);
+}
+
+
 
 
